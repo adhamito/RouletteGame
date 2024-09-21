@@ -69,7 +69,8 @@ function checkWinCondition() {
         results.push(firstImage);
     }
 
-    if (results.every(img => img === results[0])) {
+    // Check if all three images are the same
+    if (results[0] === results[1] && results[1] === results[2]) {
         alert('Congratulations! All reels matched!');
     } else {
         alert('Try again! No match.');
