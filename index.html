@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="slot">
+        <div id="slot-screen">
+           
+            <ul id="reel1" class="reels">
+                <li class="reel"><img src="img/1.png" alt="1.png"></li>
+                <li class="reel"><img src="img/2.png" alt="2.png"></li>
+                <li class="reel"><img src="img/3.png" alt="3.png"></li>
+            </ul>
+            <!-- Second Reel -->
+            <ul id="reel2" class="reels">
+                <li class="reel"><img src="img/4.png" alt="4.png"></li>
+                <li class="reel"><img src="img/5.png" alt="5.png"></li>
+                <li class="reel"><img src="img/6.png" alt="6.png"></li>
+            </ul>
+            <!-- Third Reel -->
+            <ul id="reel3" class="reels">
+                <li class="reel"><img src="img/7.png" alt="7.png"></li>
+                <li class="reel"><img src="img/8.png" alt="8.png"></li>
+                <li class="reel"><img src="img/9.png" alt="9.png"></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="flex">
+        <button class="stop-btn" data-val="0" disabled>Stop Reel 1</button>
+        <button class="stop-btn" data-val="1" disabled>Stop Reel 2</button>
+        <button class="stop-btn" data-val="2" disabled>Stop Reel 3</button>
+    </div>
+
+    
+    <div class="start-container">
+        <button id="spin" class="start-btn">SPIN</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

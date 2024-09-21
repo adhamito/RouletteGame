@@ -1,0 +1,127 @@
+/* Body layout and gradient */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3a3d50, #1c2e5a); 
+    font-family: 'Poppins', sans-serif;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.slot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 5px solid #000; 
+    border: #9b9b9b 3px solid;
+    border-radius: 15px; 
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+}
+
+
+#slot-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 420px;
+    height: 320px;
+   
+   
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.reels {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.reel {
+    margin: 3px 0;
+    background: transparent;
+}
+
+
+.reel img {
+    width: 85px;
+    height: 85px;
+    border-radius: 12px;
+    border: 3px solid #333; 
+    
+}
+
+
+button {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s; 
+}
+
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px); 
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+
+button:disabled {
+    background-color: #a9a9a9;
+    cursor: not-allowed;
+}
+
+
+.start-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.stop-btn {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #ff0000; 
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
